@@ -24,11 +24,13 @@ int main() {
         if (a[i] == b[i])
         {
             i++;
-        } else if (a[i] > b[i]) {
-            printf("b is smaller.");
+        }
+        else if (a[i] > b[i]) {
+            printf("b is smaller.\n");
             break;
-        } else {
-            printf("a is smaller.");
+        } 
+        else {
+            printf("a is smaller.\n");
             break;
         }
     }
