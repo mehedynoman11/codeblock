@@ -1,1 +1,1 @@
-picturephotography photography
+Count of zeros = 3
