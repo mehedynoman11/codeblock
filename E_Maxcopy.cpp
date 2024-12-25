@@ -10,14 +10,14 @@ int main() {
         cin>>A[i];
     }
 
-    int maxNum = INT_MIN;
+    int maxNum;
 
     for(int i=0;i<N;i++) {
         if(A[i] > maxNum){
-            maxNum = A[i];
+            max(A[i], maxNum);
         }
     }
-    cout<<maxNum<<endl;
+    cout<<A[i]<<endl;
 
 
 
